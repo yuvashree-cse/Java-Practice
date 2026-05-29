@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class intro{
+public class Introduction{
 
     public static void main(String[] args){
         System.out.println("Hi, I am Yuvashree!");
