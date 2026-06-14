@@ -11,8 +11,8 @@ public class Extract3digitNumber{
         int first = num / 100;
 
         System.out.println("\nExtracted digits: ");
-        System.out.print("First Digit: "+first+",\n");
-        System.out.print("Middle Digit: "+middle+",\n");
+        System.out.print("First Digit: "+first+"\n");
+        System.out.print("Middle Digit: "+middle+"\n");
         System.out.print("Last Digit: "+last);
     }
 }
