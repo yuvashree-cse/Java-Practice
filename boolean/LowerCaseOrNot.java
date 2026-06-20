@@ -1,15 +1,14 @@
 import java.util.*;
 
-public class UpperCaseOrNot{
+public class LowerCaseOrNot{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-
-        System.out.println("Upper Case Or Not");
+        System.out.println("Lower Case Or Not");
         System.out.print("Enter a character: ");
+        
         char alphabet = sc.next().charAt(0);
 
-        boolean isUpperCase = alphabet >= 'A' && alphabet <= 'Z';
-
-        System.out.print(isUpperCase);
+        boolean isLowerCase = alphabet >= 'a' && alphabet <= 'z';
+        System.out.print(isLowerCase);
     }
 }
