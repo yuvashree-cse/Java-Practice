@@ -1,9 +1,9 @@
 import java.util.*;
 
-class Box <T>{
+class Container<T>{
     T value;
 
-    Box (T value){
+    Container(T value){
         this.value = value;
     }
 
@@ -12,9 +12,9 @@ class Box <T>{
     }
 }
 
-public class Task1{
+public class Task3{
     public static void main(String[] args){
-        Box<Integer> b1 = new Box<>(25);
-        b1.show();
+        Container<Integer> num = new Container<>(100);
+        num.show();
     }
 }
