@@ -1,1 +1,6 @@
+# IntelliJ IDEA
+.idea/
+Java-Practice.iml
+
+# Compiled Java files
 *.class
